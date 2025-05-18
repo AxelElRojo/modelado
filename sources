@@ -1,0 +1,12 @@
+titulo = json['listPostings'][i]['title']
+direccion = json['listPostings'][i]['postingLocation']['address']['name']
+precio = json['listPostings'][i]['priceOperationTypes'][0]['prices'][0]['amount']
+if json['listPostings'][i]['mainFeatures'][i]['label'] = 'Terreno construído':
+	area = json['listPostings'][i]['mainFeatures'][i]['value']
+if json['listPostings'][i]['mainFeatures'][i]['label'] = 'Recámaras':
+	recamaras = json['listPostings'][i]['mainFeatures'][i]['value']
+antiguedad = json['listPostings'][i]['antiquity'] != NULL
+pagaMantenimiento = json['listPostings'][i]['expenses']
+fechaCreacion = json['listPostings'][i]['publisher']['created_date']
+amenidades = json['listPostings'][i]['highlightedFeatures']
+colonia = json['listPostings'][i]['postingLocation']['location']['name']
